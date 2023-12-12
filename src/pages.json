@@ -1,0 +1,435 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue",
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      "^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue"
+    }
+  },
+  "pages": [
+    // {
+    //   "path": "pages/openCreate/openCreate",
+    //   "style": {
+    //     "navigationBarTitleText": "",
+    //     "enablePullDownRefresh": false,
+    //     "navigationStyle": "custom"
+    //   }
+
+    // },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": false
+      }
+    },
+
+    {
+      "path": "pages/test/icon",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "查看图标"
+      }
+    },
+    {
+      "path": "pages/test/test",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "测试1"
+      }
+    },
+
+    {
+      "path": "pages/inquiry/inquiry",
+      "style": {
+        "navigationBarTitleText": "预审信息",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/customerInfo/customerInfo",
+      "style": {
+        "navigationBarTitleText": "客户信息",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/realLease/realLease",
+      "style": {
+        "navigationBarTitleText": "真租顶",
+        "enablePullDownRefresh": true
+      }
+    },
+    // {
+    //   "path": "pages/InitialReview/InitialReview",
+    //   "style": {
+    //     "navigationBarTitleText": "初设评审",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/gridConnected/gridConnected",
+    //   "style": {
+    //     "navigationBarTitleText": "并网信息",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/gridConnectedAccount/gridConnectedAccount",
+    //   "style": {
+    //     "navigationBarTitleText": "并网结算信息",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/electricityContract/electricityContract",
+    //   "style": {
+    //     "navigationBarTitleText": "购售电合同",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    {
+      "path": "pages/itemDetail/itemDetail",
+      "style": {
+        "navigationBarTitleText": "项目详情",
+        "enablePullDownRefresh": true
+      }
+    },
+    // {
+    //   "path": "pages/build/build",
+    //   "style": {
+    //     "navigationBarTitleText": "施工",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/deviceInfo/deviceInfo",
+    //   "style": {
+    //     "navigationBarTitleText": "设备信息",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/InitialReview/designChange",
+    //   "style": {
+    //     "navigationBarTitleText": "设计变更",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/InitialReview/designChangeLog",
+    //   "style": {
+    //     "navigationBarTitleText": "设计变更记录",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/buildVideo/buildVideo",
+    //   "style": {
+    //     "navigationBarTitleText": "施工影像件信息",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+
+    // {
+    //   "path": "pages/contractAward/contractAward",
+    //   "style": {
+    //     "navigationBarTitleText": "合同签约",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/controls/controls",
+    //   "style": {
+    //     "navigationBarTitleText": "操作纪录",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/certificate/certificate",
+    //   "style": {
+    //     "navigationBarTitleText": "备案证",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    {
+      "path": "pages/index/person",
+      "style": {
+        "navigationStyle": "custom"
+        // "navigationBarTitleText": "个人主页",
+        // "enablePullDownRefresh": false
+      }
+    },
+    // {
+    //   "path": "pages/receiveGoods/receiveGoods",
+    //   "style": {
+    //     "navigationBarTitleText": "现场扫码收货",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    {
+      "path": "pages/webview/uniWebView",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+
+    // {
+    //   "path": "pages/businessAudit/businessAudit",
+    //   "style": {
+    //     "navigationBarTitleText": "商务审核",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/order/order",
+    //   "style": {
+    //     "navigationBarTitleText": "",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    {
+      "path": "pages/businessReconnaissance/businessReconnaissance",
+      "style": {
+        "navigationBarTitleText": "业务踏勘",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/technicalLnvestigation/technicalLnvestigation",
+      "style": {
+        "navigationBarTitleText": "技术勘察",
+        "enablePullDownRefresh": true
+      }
+    }
+    // {
+    //   "path": "pages/recordList/recordList",
+    //   "style": {
+    //     "navigationBarTitleText": "备案证列表",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/supplyChain/supplyChain",
+    //   "style": {
+    //     "navigationBarTitleText": "供应链",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/firstWarehouseReceipt/firstWarehouseReceipt",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库收货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/firstWarehouseReceipt/firstWarehouseReceiptForm",
+    //   "style": {
+    //     "navigationBarTitleText": "扫码收货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/warehouseReceivedGoods/warehouseReceivedGoods",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库已收货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/warehouseReceivedGoods/warehouseReceivedGoodsForm",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库已收货详情",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/warehouseDelivery/warehouseDelivery",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库发货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/warehouseDelivery/warehouseDeliveryForm",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库发货详情",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+
+    // {
+    //   "path": "pages/recordAdd/recordAdd",
+    //   "style": {
+    //     "navigationBarTitleText": "新增备案",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/recordDetail/recordDetail",
+    //   "style": {
+    //     "navigationBarTitleText": "备案证详情",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/storeAdd/storeAdd",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库管理",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/settlement/settlement",
+    //   "style": {
+    //     "navigationBarTitleText": "直营结算",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/gridSettlement/gridSettlement",
+    //   "style": {
+    //     "navigationBarTitleText": "资料结算信息",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/storeUpdate/storeUpdate",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库管理",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/storeDel/storeDel",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库管理",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/storeEvice/storeEvice",
+    //   "style": {
+    //     "navigationBarTitleText": "",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/income/income",
+    //   "style": {
+    //     "navigationBarTitleText": "收益查询",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/goodsRejectList/goodsRejectList",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库退货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/siteGoodsReject/siteGoodsReject",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库退货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/siteGoodsRejectAdd/siteGoodsRejectAdd",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库退货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/goodsRejectDetail/goodsRejectDetail",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库退货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/sendOutGoods/sendOutGoods",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库发货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/sendOutGoodsList/sendOutGoodsList",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库发货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/goodsCollectList/goodsCollectList",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库收货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/goodsCollectDetail/goodsCollectDetail",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库收货",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/operateLog/operateLog",
+    //   "style": {
+    //     "navigationBarTitleText": "操作记录",
+    //     "enablePullDownRefresh": true
+    //   }
+    // },
+    // {
+    //   "path": "pages/goodsInventory/goodsInventory",
+    //   "style": {
+    //     "navigationBarTitleText": "仓库库存",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/designChange/designChange",
+    //   "style": {
+    //     "navigationBarTitleText": "设计变更",
+    //     "enablePullDownRefresh": true
+    //   }
+    // }
+  ],
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#ffab30",
+    "borderStyle": "black",
+    "fontSize": "18px",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/person",
+        "text": "个人主页"
+      }
+    ]
+  }
+}

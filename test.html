@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="flex items-center justify-center h-[100vh] w-[100vw]">
+    <div class="w-[100px] h-[100px] bg-gray-200"></div>
+  </body>
+
+  <script src="https://unpkg.com/rxjs@%5E7/dist/bundles/rxjs.umd.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    const { fromEvent, scan, throttleTime } = rxjs
+    const div = document.getElementsByTagName('body')[0]
+    fromEvent(div, 'click')
+      .pipe(
+        throttleTime(1000),
+        scan((count) => count + 1, 0)
+      )
+      .subscribe((count) => console.log(`Clicked ${count} times`))
+  </script>
+</html>
