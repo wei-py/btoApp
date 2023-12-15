@@ -13,7 +13,6 @@ export const baseURLDic = {
   mingjieSto: { app: 'http://192.168.30.11:30610', web: '/mjSto' }, // 铭杰 供应链
   sit: { app: 'http://192.168.150.250:30600', web: '/sit' }, // 测试
   uat: { app: 'https://7k20s48526.zicp.fun', web: '/uat' } // 打包测试环境
-  // prod: { app: 'http://workorder.btosolarman.com:30600', web: '/prod' }
 }
 
 const whoApi = uni.getStorageSync('whoApi') || 'uat'

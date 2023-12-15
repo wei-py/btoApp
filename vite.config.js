@@ -89,11 +89,6 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/uat/, ''),
         changeOrigin: true
       },
-      // '/prod': {
-      //   target: 'http://workorder.btosolarman.com:30600',
-      //   rewrite: (path) => path.replace(/^\/prod/, ''),
-      //   changeOrigin: true
-      // },
       '/sit': {
         target: 'http://192.168.150.250:30600',
         rewrite: (path) => path.replace(/^\/sit/, ''),
