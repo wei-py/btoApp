@@ -64,7 +64,6 @@ util.onceShow(async () => {
   approvalModuleEnhance = enhance(approvalModule)
   util._.approvalModule = computed(() => approvalModuleEnhance)
   util._.allPath = lo.concat(util._.allPath, ...approvalModule.map((n) => 'approvalModule.' + n.name), 'rejectFiles')
-
   lo.forIn(['name', 'option', 'title', 'allPath'], (n) => {
     delete approvalModuleEnhance[n]
   })

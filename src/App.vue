@@ -1,5 +1,7 @@
 <script setup>
-import notice from './components/notice.vue'
+// import notice from './components/notice.vue'
+// #ifdef APP-PLUS
+// #endif
 
 </script>
 

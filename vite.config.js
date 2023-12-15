@@ -31,9 +31,6 @@ export default defineConfig({
           lodash: [['*','lo']]
         },
         {
-          rxjs: [['*', 'rx']]
-        },
-        {
           'wot-design-uni': [['*', 'wot']]
         }
       ],
